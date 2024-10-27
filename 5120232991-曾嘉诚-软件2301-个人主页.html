@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body{
+            background-image: url(./images/2024-10-26\ 14-34-29-93.png);
+            
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .header{
+            overflow: hidden;
+            height: 150px;
+            background-color: rgba(53, 51, 51, 0.5);
+            border: 1px solid #000;
+            border-radius: 8px 8px 0 0;
+        }
+       
+
+        .setting{
+            
+            height: 50px;
+            background-color: rgba(6, 6, 6, 0.8);
+            border: 1px solid #000;
+        }
+
+        .remind{
+            margin: 20px auto;
+            height: 200px;
+            width: 1300px;
+            color: aliceblue;
+            background-color: rgba(53, 51, 51, 0.5);
+            font-size: 30px;
+            font-family: 楷体;
+            border: 1px solid #fff;
+            border-radius: 10px;
+        }
+
+        .mus{
+            margin: 50px auto;
+            height: 100px;
+            width: 500px;
+            color: aliceblue;
+            background-color: rgba(30, 29, 29, 0.7);
+            font-size: 50px;
+            font-family: 楷体;
+            border: 1px solid #fff;
+            text-align: center;
+            line-height: 100px;
+            border-radius: 20px;
+        }
+
+        ul{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+            height: 860px;
+            width: 1400px;
+            padding: 20px;
+
+        }
+
+        .setting ul{
+            height: 40px;
+            padding: 0;
+            justify-content: start;
+        }
+        .setting li{
+            margin-left: 14px;
+            margin-top: 10px;
+            float: left;
+            list-style: none;
+            background-color: rgba(6, 6, 6, 0);
+            color: aliceblue;
+            height: 28px;
+            width: 80px;
+            text-align: center;
+            border-radius: 12px;
+        }
+
+        .setting li:hover{
+            background-color: rgba(189, 183, 183, 0.8);
+        }
+        .setting a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        .box{
+            display: flex;
+            flex-wrap: wrap;
+            height: 920px;
+            border: 1px solid #fff;
+            background-color: rgba(26, 26, 26, 0.6);
+            border-radius: 8px 8px 8px 8px;
+            justify-content: space-evenly;
+        }
+        /* .box2{
+            /* display: flex;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            border-radius: 8px;
+            height: 900px;
+            border: 1px solid #fff; 
+            background-color: rgba(26, 26, 26, 0.6);
+
+        }
+        .box3{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 40px;
+            border-radius: 8px;
+            height: 900px;
+            border: 1px solid #fff;
+            background-color: rgba(26, 26, 26, 0.6);
+
+        } */
+        
+        .text{
+            margin:30px auto;
+            height: 70px;
+            width: 220px;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            line-height: 70px;
+        }
+        
+        /* .left{
+            border-radius: 7px;
+            margin: 20px;
+            height: 860px;
+            width: 220px;
+            background-color: rgba(26, 26, 26, 0.6);
+        } */
+
+        .top{
+            height: 400px;
+            width: 180px;
+            background-image: url(./th\ \(1\).jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 1px solid #000;
+            margin: 20px;
+        }
+
+        .right{
+            
+            border-radius: 7px;
+            margin: 20px 40px;
+            height: 880px;
+            flex:1;
+            background-color: rgba(26, 26, 26, 0.6);
+            
+        }
+
+        /* .right ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+            height: 860px;
+            width: 1400px;
+            padding: 20px;
+
+        } */
+
+        .box2 ul{
+            /* display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+            /* height: 860px; */
+            width: 1500px;
+            /* padding: 20px; */ 
+        }
+
+    
+
+        li{
+            display: inline-block;
+            list-style: none;
+            height: 400px;
+            width: 300px;
+            background-color: rgba(154, 148, 148, 0.3);
+            border: 1px solid #fff;
+            border-radius: 7px;
+        }
+        .right li:nth-child(1){
+            background-image: url(./images/5567034a3cee7fb7ed6f3187fe1398253493130500311757.jpg@.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }.right li:nth-child(2){
+            background-image: url(./images/2024-10-26\ 14-17-36-53.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .right li:nth-child(3){
+            background-image: url(./images/2024-10-26\ 14-50-37-33.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .right li:nth-child(4){
+            background-image: url(./images/2024-10-26\ 15-01-52-89.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .right li:nth-child(5){
+            margin: 0;
+            background-image: url(./images/e3372e7558f9fd9e9a1afd11a1832160387bf44dd819a-vTjYvg_fw658.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .right li:nth-child(6){
+            background-image: url(./images/下载.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .right li:nth-child(7){
+            background-image: url(./images/th.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .right li:nth-child(8){
+            background-image: url(./images/2024020522270258534.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .right audio{
+            margin-top: 340px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* .box2 li{
+            display: inline-block;
+            list-style: none;
+            height: 400px;
+            width: 300px;
+            background-color: rgba(154, 148, 148, 0.3);
+            border: 1px solid #fff;
+            border-radius: 7px;
+        } */
+
+        .box2 li:nth-child(1){
+            background-image: url(./images/千与千寻.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }.box2 li:nth-child(2){
+            background-image: url(./images/朝花夕誓.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box2 li:nth-child(3){
+            background-image: url(./images/紫罗兰.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box2 li:nth-child(4){
+            background-image: url(./images/钢琴家.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .box2 li:nth-child(5){
+            margin: 0;
+            background-image: url(./images/肖申克.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box2 li:nth-child(6){
+            background-image: url(./images/楚门.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box2 li:nth-child(7){
+            background-image: url(./images/让子弹飞.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box2 li:nth-child(8){
+            background-image: url(./images/师父.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .last{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 200px;
+            height: 400px;
+            background-color: rgba(6, 6, 6, 0.9);
+            border: 1px solid #000;
+        }
+
+        .left{
+            height: 300px;
+            width: 300px;
+            /* border: 1px solid #fff; */
+        }
+
+        .box3 ul{
+            width: 1550px;
+        }
+
+        .box3 li{
+            color:white;
+            font-family: 楷体;
+            font-size: 25px;
+            height: 600px;
+            width: 450px;
+        }
+
+        .box4{
+            padding: 20px 60px;
+            margin: 20px auto;
+            height: 300px;
+            width: 1200px;
+            font-size: 30px;
+            color: white;
+            font-family: 楷体;
+        }
+        .left img{
+            margin: 50px;
+        }
+
+        .right1{
+            height:60px;
+            width: 1100px;
+            /* border: 1px solid #fff; */
+        }
+
+        .right1 ul{
+            height: 40px;
+            width: 1000px;
+        }
+        .right1 li{
+            height: 40px;
+            width: 160px;
+            background-color: rgba(6, 6, 6, 0.9);
+            border: 0;
+        }
+        .right1 a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 28px;
+            font-family: 楷体;
+        }
+       
+        .right1 a:hover{
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="text">
+            个人网页
+        </div>
+    </div>
+
+    <div class="setting">
+        <ul>
+            <li> <a href="#">首页</a></li>
+            <li> <a href="#">下载</a></li>
+            <li> <a href="#">关于我</a></li>
+        </ul>
+    </div>
+
+    <div class="remind">注：因为该网页图片音乐大多是本地文件，若无法显示，具体效果参考“效果图.jpeg”</div>
+    <div class="mus">我喜欢的音乐</div>
+    <div class="box">
+        <!-- <div class="left">
+            <div class="top"></div>
+        </div> -->
+        <div class="right">
+            <ul>
+                <li><audio src="./music/狸梦喵 - 不乱不破.mp3" controls></audio></li>
+                <li><audio src="./music/三秋月季 - 在银河中孤独摇摆.mp3" controls></audio></li>
+                <li><audio src="./music/亦铭Enmy - AI去人声飞霄角色PV——「君莫笑」.mp3" controls></audio></li>
+                <li><audio src="./music/繁樱落雪257 - 《崩坏：星穹铁道》砂金角色PV——「金手指」纯音乐.mp3" controls></audio></li>
+                <li><audio src="./music/TRUE - Sincerely.mp3" controls></audio></li>
+                <li><audio src="./music/神樂 - いつも何度でも——千与千寻主题曲.mp3" controls></audio></li>
+                <li><audio src="./music/折戸伸治 - 潮鳴り.mp3" controls></audio></li>
+                <li><audio src="./music/市川淳 - ヨスガノソラ メインテーマ -記憶-.mp3" controls></audio></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mus">我喜欢的电影海报</div>
+    <div class="box box2">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="mus">如何制作简单的网页</div>
+    <div class="box box3">
+        <ul>
+            <li><h2>第一步：基础知识学习</h2>
+                <p>学习 HTML：了解 HTML 的基本结构，包括标签、元素和属性。掌握常用标签，如 html、head、body、h1 至 h6、p、a、img 等。</p>
+                <p>学习 CSS：理解 CSS 的基本概念，包括选择器、属性和样式。学习如何为 HTML 元素添加样式，如颜色、字体、边距和填充。</p>
+                <p>资源：使用菜鸟教程，或者在bilibili，CSDN等网站上学习</li></p>
+                
+            <li><h2>第二步：实践操作</h2>
+                <p>搭建开发环境：选择一个文本编辑器（如 VSCode、Sublime Text）和浏览器（如 Chrome、Firefox）来编写和测试代码。</p>
+                <p>编写 HTML 代码：创建一个简单的 HTML 文件，定义网页的基本结构，包括标题、段落和图像。</p>
+                <p> 添加 CSS 样式：在同一文件或单独的 CSS 文件中，使用样式为网页设置颜色、字体、布局等，确保网页看起来美观。</p>
+               </li>
+            <li>
+                <h2>第三步：练习与创新</h2>
+                <p>在基础知识学习完成之后可以在网上搜索一些简单的网站用于练习，练习之后自然会熟悉如何写好一个网站</p>
+                <p>了解不同元素如何排列及其样式，确定你想要制作的网页，注意观察其布局、配色、字体和整体风格</p>
+                <p>最好加入一些个人特色，是网页具有个人的风格</p>
+            </li>
+        </ul>
+    </div>
+    <div class="mus">关于我</div>
+    <div class="box box4">
+        <p>首先非常感谢你能看到这里，这是我学习html，css后第一次制造网页，可能略显粗糙，有机会以后会进一步完善。此网页确实花费了我一点心思，如果喜欢希望你能点个赞。
+            <br><br><br><br>
+        (注：结尾处的用户条例等为我练习模仿其他网页制作并不具备实际作用)
+        </p>
+    </div>
+    <div class="last">
+        <div class="left">
+            <img src="./images/R.png" width="200px">
+        </div>
+        <div class="right1">
+            <ul>
+                <li><a href="#">用户协议</a></li>
+                <li><a href="#">隐私政策</a></li>
+                <li><a href="#">自律公约</a></li>
+                <li><a href="#">关于作者</a></li>
+                <li><a href="#">支持作者</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
